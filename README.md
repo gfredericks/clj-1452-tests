@@ -99,9 +99,9 @@ Found 3 outliers in 60 samples (5.0000 %)
 	low-severe	 3 (5.0000 %)
  Variance from outliers : 43.4058 % Variance is moderately inflated by outliers
 
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; Tested threaded-local-shuffling ;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Testing threaded-local-shuffling ;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 Evaluation count : 960 in 60 samples of 16 calls.
              Execution time mean : 64.462853 ms
     Execution time std-deviation : 1.407808 ms

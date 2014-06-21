@@ -54,5 +54,5 @@
   (bench (threaded-shuffling))
 
   (when seedable?
-    (msg "Tested threaded-local-shuffling")
+    (msg "Testing threaded-local-shuffling")
     (bench (threaded-local-shuffling))))
