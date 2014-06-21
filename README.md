@@ -1,6 +1,6 @@
 # clj-1452-tests
 
-Tests for CLJ-1452
+Tests for [CLJ-1452](http://dev.clojure.org/jira/browse/CLJ-1452)
 
 ## Usage
 
