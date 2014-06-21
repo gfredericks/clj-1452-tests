@@ -1,6 +1,12 @@
 # clj-1452-tests
 
-Tests for [CLJ-1452](http://dev.clojure.org/jira/browse/CLJ-1452)
+Tests for [CLJ-1452](http://dev.clojure.org/jira/browse/CLJ-1452).
+
+`rand` is slightly slower, while `shuffle` is insignificantly
+faster. Using shuffle from 8 threads is insignificantly slower,
+but switching to a `ThreadLocalRandom` manually in the patched
+version results in a 2.5x speedup.
+
 
 ## Usage
 
