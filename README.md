@@ -13,7 +13,7 @@ version results in a 2.5x speedup.
 Running on my 8 core linode vm:
 
 ```
-$ echo "Clojure 1.6.0"; lein with-profile +clj-1.6 run; echo "Clojure 1.6.0 with *rand*"; lein with-profile +clj-1452 run
+$ echo "Clojure 1.6.0"; lein with-profile base,clj-1.6 run; echo "Clojure 1.6.0 with *rand*"; lein with-profile base,clj-1452 run
 Clojure 1.6.0
 
 ;;;;;;;;;;;;;;;;;;

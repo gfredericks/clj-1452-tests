@@ -3,7 +3,7 @@
   :url "http://example.com/FIXME"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
-  :dependencies [[criterium "0.4.3"]]
+  :dependencies [[criterium "0.4.3" :excludes [org.clojure/clojure]]]
   :jvm-opts ^:replace []
   :main clj-1452-tests.core
   :profiles
